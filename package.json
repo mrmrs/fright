@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "basic",
+  "name": "fright",
   "scripts": {
     "dev": "next",
     "build": "next build",
