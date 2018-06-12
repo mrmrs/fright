@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "fright",
+  "version": "0.0.1",
   "scripts": {
     "dev": "next",
     "build": "next build",
