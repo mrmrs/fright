@@ -17,6 +17,20 @@ module.exports = {
       ]
     })
 
+    config.module.rules.push({
+      test: /\.jsx$/,
+      exclude: /node_modules/,
+      use: [
+        'babel-loader',
+        {
+          loader: '@compositor/jsx-loader',
+          options: {
+            scope: `import * as scope from './scope.js'`
+          }
+        }
+      ]
+    })
+
     return config
   }
 }

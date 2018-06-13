@@ -1,10 +1,10 @@
 import React from 'react'
 import { ThemeProvider } from 'glamorous' 
 
-const Home = props => (
+const Example = props => (
     <Div>
-      <Article>An article</Article>
+      <H1>An Example Page</H1>
     </Div>
 )
 
-export default Home
+export default Example
