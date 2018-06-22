@@ -1,15 +1,31 @@
 import glamorous from 'glamorous'
-import { 
-  space, width, display, 
-  fontSize, 
-  color, borders, borderColor, borderWidth, borderRadius } from 'styled-system'
+import {
+  space,
+  width,
+  display,
+  fontSize,
+  color,
+  borders,
+  borderColor,
+  borderWidth,
+  borderRadius,
+} from 'styled-system'
 
-const Code = glamorous.code(space, width, display, fontSize, color, borders, borderColor, borderWidth, borderRadius, {
-  boxSizing: 'border-box'
-})
+const Code = glamorous.code(
+  space,
+  width,
+  display,
+  fontSize,
+  color,
+  borders,
+  borderColor,
+  borderWidth,
+  borderRadius,
+  {
+    boxSizing: 'border-box',
+  },
+)
 
-Code.defaultProps = {
-
-}
+Code.defaultProps = {}
 
 export default Code

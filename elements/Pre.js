@@ -1,5 +1,5 @@
 import glamorous from 'glamorous'
-import { space, display, width, fontSize, color } from 'styled-system'
+import {space, display, width, fontSize, color} from 'styled-system'
 
 const Pre = glamorous.pre(space, display, width, fontSize, color, {
   boxSizing: 'border-box',
@@ -7,7 +7,7 @@ const Pre = glamorous.pre(space, display, width, fontSize, color, {
 })
 
 Pre.defaultProps = {
-  fontSize: 2
+  fontSize: 2,
 }
 
 export default Pre

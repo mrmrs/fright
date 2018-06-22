@@ -1,12 +1,25 @@
 import glamorous from 'glamorous'
-import { space, display, width, fontSize, fontWeight, textAlign, color } from 'styled-system'
+import {
+  space,
+  display,
+  width,
+  fontSize,
+  fontWeight,
+  textAlign,
+  color,
+} from 'styled-system'
 
-const Summary = glamorous.summary(space, display, width, fontSize, fontWeight, textAlign, color, {
+const Summary = glamorous.summary(
+  space,
+  display,
+  width,
+  fontSize,
+  fontWeight,
+  textAlign,
+  color,
+  {},
+)
 
-})
-
-Summary.defaultProps = {
-
-}
+Summary.defaultProps = {}
 
 export default Summary
